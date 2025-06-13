@@ -1,11 +1,14 @@
-import Image from "next/image"
-import Link from "next/link"
-import DotPattern from "@/components/dot-pattern"
-import ProjectCard from "@/components/project-card"
+import Image from "next/image";
+import Link from "next/link";
+import DotPattern from "@/components/dot-pattern";
+import ProjectCard from "@/components/project-card";
+import DecorativeElements from "@/components/decorative-elements";
 
 export default function Home() {
   return (
-    <div className="px-4 md:px-32 space-y-24 pb-16">
+    <div className="px-4 md:px-32 space-y-24 pb-16 relative overflow-hidden">
+      <DecorativeElements variant="home" />
+
       {/* Hero Section */}
       <section className="relative pt-12 md:pt-24">
         <DotPattern className="top-20 right-10 w-32 h-32" />

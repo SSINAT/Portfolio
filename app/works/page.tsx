@@ -1,9 +1,12 @@
-import DotPattern from "@/components/dot-pattern"
-import ProjectCard from "@/components/project-card"
+import DotPattern from "@/components/dot-pattern";
+import ProjectCard from "@/components/project-card";
+import DecorativeElements from "@/components/decorative-elements";
 
 export default function Works() {
   return (
-    <div className="px-4 md:px-32 space-y-16 pb-16">
+    <div className="px-4 md:px-32 space-y-16 pb-16 relative overflow-hidden">
+      <DecorativeElements variant="works" />
+
       <section className="relative pt-8">
         <DotPattern className="top-20 right-10 w-32 h-32" />
         <DotPattern className="bottom-0 left-20 w-32 h-32" />
