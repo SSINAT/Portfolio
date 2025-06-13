@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #282c33;
+  --foreground: #abb2bf;
+  --primary: #c778dd;
+  --white: #ffffff;
+  --border-color: #abb2bf;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-fira-code);
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-white;
+  }
+}
+
+@layer components {
+  .dot-pattern {
+    background-image: radial-gradient(circle, var(--foreground) 1px, transparent 1px);
+    background-size: 20px 20px;
+    opacity: 0.2;
+  }
+
+  .section-title {
+    @apply text-white font-fira-code text-xl md:text-2xl font-medium flex items-center;
+  }
+
+  .section-title::before {
+    content: "/";
+    @apply text-primary mr-1;
+  }
+
+  .hash-title {
+    @apply text-white font-fira-code text-xl md:text-2xl font-medium flex items-center;
+  }
+
+  .hash-title::before {
+    content: "#";
+    @apply text-primary mr-1;
+  }
+
+  .project-card {
+    @apply border bg-background;
+    border-color: var(--border-color);
+  }
+
+  .project-card-header {
+    @apply border-b p-2 text-sm;
+    border-color: var(--border-color);
+  }
+
+  .project-card-body {
+    @apply p-4;
+  }
+
+  .project-card-footer {
+    @apply border-t p-2 flex gap-2;
+    border-color: var(--border-color);
+  }
+
+  .btn {
+    @apply border text-white px-4 py-2 inline-flex items-center justify-center hover:bg-primary/10 transition-colors;
+    border-color: var(--primary);
+  }
+
+  .btn-outline {
+    @apply border text-white px-4 py-2 inline-flex items-center justify-center hover:bg-white/5 transition-colors;
+    border-color: var(--border-color);
+  }
+}
