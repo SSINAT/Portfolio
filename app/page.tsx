@@ -113,13 +113,13 @@ export default function Home() {
             githubLink="#"
           />
           <ProjectCard
-            title="Kahoot Answers"
-            description="Get answers to your kahoot quiz"
-            tags={["JavaScript", "CSS", "HTML"]}
-            imageSrc="/images/kahoot-answers.png"
-            imageAlt="Kahoot Answers project"
-            liveLink="#"
+            title="My Portfolio"
+            description="Personal Portfolio website"
+            tags={["React", "Express", "Node.js"]}
+            imageSrc="/images/portfolio.png"
+            imageAlt="My Portfolio project"
             githubLink="#"
+            liveLink="#"
           />
         </div>
       </section>

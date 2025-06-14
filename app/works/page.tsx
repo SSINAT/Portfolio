@@ -62,12 +62,13 @@ export default function Works() {
             githubLink="#"
           />
           <ProjectCard
-            title="My blog"
-            description="Personal blog website"
+            title="My Portfolio"
+            description="Personal Portfolio website"
             tags={["React", "Express", "Node.js"]}
-            imageSrc="/images/TicQuizApp.png"
-            imageAlt="Blog project"
+            imageSrc="/images/portfolio.png"
+            imageAlt="My Portfolio project"
             githubLink="#"
+            liveLink="#"
           />
           <ProjectCard
             title="ChertNodes"
@@ -96,20 +97,20 @@ export default function Works() {
             liveLink="#"
           />
           <ProjectCard
-            title="Web Dev setup config"
-            description="My personal web development setup"
-            tags={["Markdown"]}
-            imageSrc="/images/ticquiz.png"
-            imageAlt="Web Dev setup config"
+            title="Game 2048"
+            description="Simple 2048 game "
+            tags={["Java"]}
+            imageSrc="/images/2048.png"
+            imageAlt="Game 2048 project"
             githubLink="#"
           />
           <ProjectCard
-            title="Onku"
-            description="Discord multipurpose bot"
-            tags={["TypeScript", "Discord.js"]}
-            imageSrc="/images/logo.png"
-            imageAlt="Onku project"
-            liveLink="#"
+            title="Everloop"
+            description="Everloop board"
+            tags={["JavaScript", "HTML", "CSS"]}
+            imageSrc="/images/everloop.png"
+            imageAlt="Everloop project"
+            githubLink="https://github.com/SSINAT/EVERLOOP.git"
           />
           <ProjectCard
             title="School website"

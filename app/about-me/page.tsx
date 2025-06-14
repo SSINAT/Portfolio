@@ -37,7 +37,7 @@ export default function AboutMe() {
           <div className="relative flex justify-center">
             <Image
               src="/images/sinat-portrait.svg"
-              alt="Elias portrait"
+              alt="Sinat portrait"
               width={300}
               height={400}
               className="object-cover"

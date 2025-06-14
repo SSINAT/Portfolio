@@ -9,6 +9,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-}
+  devIndicators: false, // 👈 this disables the "N" icon and Dev Tools UI
+};
 
-export default nextConfig
+export default nextConfig;
