@@ -21,7 +21,10 @@ export default function ProjectCard({
   githubLink,
 }: ProjectCardProps) {
   return (
-    <div className="project-card flex flex-col" style={{ borderColor: "#ABB2BF" }}>
+    <div
+      className="project-card flex flex-col"
+      style={{ borderColor: "#ABB2BF" }}
+    >
       <div className="project-card-header" style={{ borderColor: "#ABB2BF" }}>
         {tags.join(" ")}
       </div>
@@ -34,11 +37,14 @@ export default function ProjectCard({
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </div>
-      <div className="project-card-body flex-1">
+      <div className="project-card-body border-t flex-1">
         <h3 className="text-white text-lg mb-2">{title}</h3>
         <p className="text-sm">{description}</p>
       </div>
-      <div className="project-card-footer" style={{ borderColor: "#ABB2BF" }}>
+      <div
+        className="project-card-footer"
+        style={{ borderColor: "#ABB2BF" }}
+      >
         {liveLink && (
           <Link href={liveLink} className="btn-outline text-xs">
             Live {"<~>"}
@@ -51,5 +57,5 @@ export default function ProjectCard({
         )}
       </div>
     </div>
-  )
+  );
 }

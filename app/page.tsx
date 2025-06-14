@@ -27,6 +27,8 @@ export default function Home() {
                 { text: "full-stack developer", className: "text-primary" },
               ]}
               className="text-white text-3xl md:text-5xl font-bold"
+              typingSpeed={40} // Optional: customize typing speed
+              repeatInterval={5000} // Optional: customize repeat interval
             />
 
             <p className="text-foreground">
@@ -146,7 +148,6 @@ export default function Home() {
         <DotPattern className="top-20 right-20 w-32 h-32" />
 
         <h2 className="hash-title mb-12">skills</h2>
-        
 
         <div className="grid md:grid-cols-3 gap-6">
           <div className="border p-0" style={{ borderColor: "#ABB2BF" }}>
