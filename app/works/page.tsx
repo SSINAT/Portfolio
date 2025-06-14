@@ -113,11 +113,11 @@ export default function Works() {
             githubLink="https://github.com/SSINAT/EVERLOOP.git"
           />
           <ProjectCard
-            title="School website"
-            description="Simple school website"
-            tags={["HTML", "CSS", "JavaScript"]}
-            imageSrc="/images/TicQuizApp.png"
-            imageAlt="School website"
+            title="Wifi Hotspot ITC"
+            description="Wifi hotspot ITC Security Of Cybernet Lab"
+            tags={["cisco", "switch", "Router", "DHCP", "DNS"]}
+            imageSrc="/images/wifi.png"
+            imageAlt="iTC Wifi Hotspot project"
             liveLink="#"
           />
         </div>

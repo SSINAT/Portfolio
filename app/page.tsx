@@ -5,6 +5,8 @@ import ProjectCard from "@/components/project-card";
 import DecorativeElements from "@/components/decorative-elements";
 import AnimatedText from "@/components/animated-text";
 
+import * as React from "react";
+
 export default function Home() {
   return (
     <div className="px-4 md:px-32 space-y-24 pb-16 relative overflow-hidden">
@@ -110,13 +112,12 @@ export default function Home() {
 
         <div className="grid md:grid-cols-3 gap-4">
           <ProjectCard
-            title="ChertNodes"
-            description="Minecraft servers hosting"
-            tags={["HTML", "CSS", "Python", "Flask"]}
-            imageSrc="/images/chertnodes.jpeg"
-            imageAlt="ChertNodes project"
+            title="Wifi Hotspot ITC"
+            description="Wifi hotspot ITC Security Of Cybernet Lab"
+            tags={["cisco", "switch", "Router", "DHCP", "DNS"]}
+            imageSrc="/images/wifi.png"
+            imageAlt="iTC Wifi Hotspot project"
             liveLink="#"
-            githubLink="#"
           />
           <ProjectCard
             title="ProtectX"
@@ -145,6 +146,7 @@ export default function Home() {
         <DotPattern className="top-20 right-20 w-32 h-32" />
 
         <h2 className="hash-title mb-12">skills</h2>
+        
 
         <div className="grid md:grid-cols-3 gap-6">
           <div className="border p-0" style={{ borderColor: "#ABB2BF" }}>
