@@ -20,7 +20,7 @@ export default function Home() {
             <AnimatedText
               parts={[
                 { text: "Sinat is a " },
-                { text: "web designer", className: "text-primary" },
+                { text: "cyber Security", className: "text-primary" },
                 { text: " and " },
                 { text: "full-stack developer", className: "text-primary" },
               ]}
