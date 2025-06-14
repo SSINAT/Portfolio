@@ -3,6 +3,7 @@ import Link from "next/link";
 import DotPattern from "@/components/dot-pattern";
 import ProjectCard from "@/components/project-card";
 import DecorativeElements from "@/components/decorative-elements";
+import AnimatedText from "@/components/animated-text";
 
 export default function Home() {
   return (
@@ -16,10 +17,16 @@ export default function Home() {
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h1 className="text-white text-3xl md:text-5xl font-bold">
-              Sinat is a <span className="text-primary">web designer</span> and{" "}
-              <span className="text-primary">full-stack developer</span>
-            </h1>
+            <AnimatedText
+              parts={[
+                { text: "Sinat is a " },
+                { text: "web designer", className: "text-primary" },
+                { text: " and " },
+                { text: "full-stack developer", className: "text-primary" },
+              ]}
+              className="text-white text-3xl md:text-5xl font-bold"
+            />
+
             <p className="text-foreground">
               He crafts responsive websites where technologies meet creativity
             </p>
@@ -30,7 +37,10 @@ export default function Home() {
           <div className="relative">
             <div
               className="border mx-auto"
-              style={{ borderColor: "#ABB2BF", width: "fit-content" }}
+              style={{
+                borderColor: "var(--border-color)",
+                width: "fit-content",
+              }}
             >
               <div className="relative">
                 <Image
