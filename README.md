@@ -7,11 +7,6 @@
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-
-[🌐 Live Demo](https://elias-portfolio.vercel.app) • [📖 Documentation](https://github.com/yourusername/elias-portfolio/wiki) • [🐛 Report Bug](https://github.com/yourusername/elias-portfolio/issues) • [✨ Request Feature](https://github.com/yourusername/elias-portfolio/issues)
-
-![Portfolio Preview](https://via.placeholder.com/800x400/282c33/ffffff?text=Portfolio+Preview)
-
 </div>
 
 ---

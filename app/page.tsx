@@ -56,7 +56,12 @@ export default function Home() {
                 >
                   <p className="text-sm">
                     <span className="text-white">Currently working on</span>{" "}
-                    Portfolio
+                    <Link
+                      href="https://itc.edu.kh/"
+                      className="text-primary hover:underline"
+                    >
+                      /full-stack developer
+                    </Link>
                   </p>
                 </div>
               </div>

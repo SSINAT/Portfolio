@@ -15,8 +15,11 @@ const firaCode = Fira_Code({
 export const metadata: Metadata = {
   title: "Sinat | Portfolio",
   description: "Web designer and front-end developer",
-    creator: 'sinat'
-}
+  creator: "sinat",
+  icons: {
+    icon: "/images/Logoblack.svg", // Path to your logo image
+  },
+};
 
 export default function RootLayout({
   children,
