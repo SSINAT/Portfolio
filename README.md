@@ -1,13 +1,12 @@
 <div align="center">
 
-# 🚀 Elias Portfolio
+# 🚀 Sinat Portfolio
 
 *A modern, animated developer portfolio built with Next.js 14*
 
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
 [🌐 Live Demo](https://elias-portfolio.vercel.app) • [📖 Documentation](https://github.com/yourusername/elias-portfolio/wiki) • [🐛 Report Bug](https://github.com/yourusername/elias-portfolio/issues) • [✨ Request Feature](https://github.com/yourusername/elias-portfolio/issues)
 
@@ -33,7 +32,7 @@
 
 ## 🎯 Overview
 
-**Elias Portfolio** is a cutting-edge developer portfolio website that combines modern web technologies with engaging animations and a sleek design. Built with Next.js 14 and TypeScript, it features a dynamic typewriter effect, smooth dark/light mode transitions, and a code-inspired aesthetic that perfectly represents a developer's technical expertise.
+**Sinat Portfolio** is a cutting-edge developer portfolio website that combines modern web technologies with engaging animations and a sleek design. Built with Next.js 14 and TypeScript, it features a dynamic typewriter effect, smooth dark/light mode transitions, and a code-inspired aesthetic that perfectly represents a developer's technical expertise.
 
 ### 🎨 Design Philosophy
 - **Code-Inspired**: Terminal and editor-like aesthetics with monospace fonts
@@ -44,7 +43,7 @@
 ### 🎯 Target Audience
 - **Developers** looking for portfolio inspiration
 - **Recruiters** and **hiring managers** seeking developer talent
-- **Clients** interested in web development services
+- **Clients** interested in cyber security web development services
 - **Students** learning modern web development
 
 ---
@@ -62,7 +61,7 @@ Ensure you have the following installed:
 
 1. **Clone the repository**
    \`\`\`bash
-   git clone https://github.com/yourusername/elias-portfolio.git
+   git clone https://github.com/SSINAT/Portfolio.git
    cd elias-portfolio
    \`\`\`
 
@@ -72,8 +71,7 @@ Ensure you have the following installed:
    # or
    yarn install
    # or
-   pnpm install
-   \`\`\`
+
 
 3. **Start development server**
    \`\`\`bash
@@ -81,19 +79,13 @@ Ensure you have the following installed:
    # or
    yarn dev
    # or
-   pnpm dev
-   \`\`\`
+
 
 4. **Open in browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
 ### 🌐 Deployment
 
-#### Vercel (Recommended)
-\`\`\`bash
-npm i -g vercel
-vercel
-\`\`\`
 
 #### Other Platforms
 - **Netlify**: Connect GitHub repo and deploy
@@ -107,7 +99,6 @@ vercel
 ### 🎨 **Visual & Design**
 | Feature | Description | Status |
 |---------|-------------|--------|
-| 🌓 **Dark/Light Mode** | Seamless theme switching with localStorage persistence | ✅ |
 | ⌨️ **Typewriter Animation** | Auto-repeating text animation every 5 seconds | ✅ |
 | 📱 **Responsive Design** | Mobile-first approach with breakpoint optimization | ✅ |
 | 🎯 **Decorative Elements** | Geometric shapes and dot patterns for visual appeal | ✅ |
@@ -135,7 +126,7 @@ vercel
 ## 📁 Project Structure
 
 \`\`\`
-elias-portfolio/
+MYPORTFILIO/
 ├── 📁 app/                     # Next.js App Router
 │   ├── 📁 about-me/           # About page route
 │   │   └── 📄 page.tsx
@@ -180,52 +171,6 @@ elias-portfolio/
 
 ### 🧩 **Core Components**
 
-#### 🎬 AnimatedText
-**Purpose**: Creates typewriter effect with customizable timing
-\`\`\`tsx
-<AnimatedText
-  text="Your animated text"
-  speed={50}              // ms per character
-  repeatInterval={5000}   // repeat every 5s
-/>
-\`\`\`
-
-#### 🎭 ThemeProvider
-**Purpose**: Manages dark/light theme state with persistence
-\`\`\`tsx
-const { theme, toggleTheme } = useTheme();
-\`\`\`
-
-#### 🃏 ProjectCard
-**Purpose**: Displays project information with links and tags
-\`\`\`tsx
-<ProjectCard
-  title="Project Name"
-  description="Brief description"
-  tags={["React", "TypeScript"]}
-  imageSrc="/images/project.png"
-  liveLink="https://demo.com"
-  githubLink="https://github.com/user/repo"
-/>
-\`\`\`
-
-### 🎨 **Styling System**
-
-#### CSS Variables
-\`\`\`css
-:root {
-  --background: #282c33;
-  --foreground: #abb2bf;
-  --primary: #c778dd;
-  --white: #ffffff;
-  --border-color: #abb2bf;
-}
-\`\`\`
-
-#### Responsive Breakpoints
-- **Mobile**: `< 768px`
-- **Tablet**: `768px - 1024px`
-- **Desktop**: `> 1024px`
 
 ### 📱 **Pages Overview**
 
@@ -316,14 +261,7 @@ Have an idea? We'd love to hear it! Include:
 - **Documentation**: Update README and comments
 - **Performance**: Consider performance implications
 - **Accessibility**: Ensure WCAG compliance
-
-### 🏆 **Contributors**
-
-<a href="https://github.com/yourusername/elias-portfolio/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=yourusername/elias-portfolio" />
-</a>
-
----
+- **Security**: Follow best practices for security
 
 ## 📄 License
 
@@ -346,7 +284,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - **[TypeScript](https://www.typescriptlang.org/)** - JavaScript with syntax for types
 - **[Tailwind CSS](https://tailwindcss.com/)** - A utility-first CSS framework
 - **[Lucide React](https://lucide.dev/)** - Beautiful & consistent icon toolkit
-- **[Vercel](https://vercel.com/)** - Platform for frontend frameworks and static sites
 
 ### 🎨 **Design Inspiration**
 - **[Figma Community](https://www.figma.com/community)** - Design inspiration and resources
@@ -372,12 +309,12 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ### 🌟 **Star this repository if you found it helpful!**
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/elias-portfolio?style=social)](https://github.com/yourusername/elias-portfolio/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/elias-portfolio?style=social)](https://github.com/yourusername/elias-portfolio/network/members)
-[![GitHub watchers](https://img.shields.io/github/watchers/yourusername/elias-portfolio?style=social)](https://github.com/yourusername/elias-portfolio/watchers)
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/elias-portfolio?style=social)](https://github.com/SSINAT/MYPORTFILIO/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/yourusername/elias-portfolio?style=social)](https://github.com/SSINAT/elias-portfolio/network/members)
+[![GitHub watchers](https://img.shields.io/github/watchers/yourusername/elias-portfolio?style=social)](https://github.com/SSINAT/MYPORTFILIO/watchers)
 
-**Made with ❤️ by [Elias](https://github.com/yourusername)**
+**Made with ❤️ by [SINA SINAT](https://github.com/SSINAT)**
 
-[🔝 Back to Top](#-elias-portfolio)
+[🔝 Back to Top](#MYPORTFILIO)
 
 </div>
