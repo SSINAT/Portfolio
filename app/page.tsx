@@ -55,8 +55,11 @@ export default function Home() {
                   className="object-cover"
                 />
                 <div
-                  className="absolute bottom-0 left-0 right-0 border-t p-2 text-center bg-background"
-                  style={{ borderColor: "#ABB2BF" }}
+                  className="absolute bottom-0 left-0 right-0 border-t p-2 text-center transition-colors duration-300"
+                  style={{
+                    borderColor: "var(--border-color)",
+                    backgroundColor: "var(--background)",
+                  }}
                 >
                   <p className="text-sm">
                     <span className="text-white">Currently working on</span>{" "}
@@ -75,14 +78,14 @@ export default function Home() {
 
         {/* Quote */}
         <div
-          className="mt-24 border p-4 max-w-md"
-          style={{ borderColor: "#ABB2BF" }}
+          className="mt-24 border p-4 max-w-md transition-colors duration-300"
+          style={{ borderColor: "var(--border-color)" }}
         >
           <div className="flex items-center gap-2 mb-2">
             <div className="text-2xl text-white">"</div>
             <div
-              className="h-px flex-1"
-              style={{ backgroundColor: "#ABB2BF" }}
+              className="h-px flex-1 transition-colors duration-300"
+              style={{ backgroundColor: "var(--border-color)" }}
             ></div>
           </div>
           <p className="text-white mb-2">
@@ -90,8 +93,8 @@ export default function Home() {
           </p>
           <div className="flex items-center gap-2">
             <div
-              className="h-px flex-1"
-              style={{ backgroundColor: "#ABB2BF" }}
+              className="h-px flex-1 transition-colors duration-300"
+              style={{ backgroundColor: "var(--border-color)" }}
             ></div>
             <div className="text-sm">- Dr. Who</div>
           </div>
@@ -103,7 +106,7 @@ export default function Home() {
         <DotPattern className="top-10 right-0 w-32 h-32" />
 
         <div className="flex justify-between items-center mb-12">
-          <h2 className="section-title">projects</h2>
+          <h2 className="section-title mb-12">projects</h2>
           <Link
             href="/works"
             className="text-white hover:text-primary transition-colors"
@@ -120,6 +123,7 @@ export default function Home() {
             imageSrc="/images/wifi.png"
             imageAlt="iTC Wifi Hotspot project"
             liveLink="#"
+            githubLink="#"
           />
           <ProjectCard
             title="ProtectX"
@@ -137,65 +141,50 @@ export default function Home() {
             imageSrc="/images/portfolio.png"
             imageAlt="My Portfolio project"
             githubLink="#"
-            liveLink="#"
           />
         </div>
       </section>
 
       {/* Skills Section */}
       <section className="relative">
-        <DotPattern className="bottom-10 left-10 w-32 h-32" />
-        <DotPattern className="top-20 right-20 w-32 h-32" />
-
-        <h2 className="hash-title mb-12">skills</h2>
-
-        <div className="grid md:grid-cols-3 gap-6">
-          <div className="border p-0" style={{ borderColor: "#ABB2BF" }}>
-            <div className="border-b p-2" style={{ borderColor: "#ABB2BF" }}>
-              <h3 className="text-white">Languages</h3>
-            </div>
-            <div className="p-4">
-              <p>TypeScript Python JavaScript</p>
-            </div>
-          </div>
-
-          <div className="border p-0" style={{ borderColor: "#ABB2BF" }}>
-            <div className="border-b p-2" style={{ borderColor: "#ABB2BF" }}>
-              <h3 className="text-white">Other</h3>
-            </div>
-            <div className="p-4">
-              <p>HTML CSS EJS SCSS REST Jinja</p>
-            </div>
-          </div>
-
-          <div className="border p-0" style={{ borderColor: "#ABB2BF" }}>
-            <div className="border-b p-2" style={{ borderColor: "#ABB2BF" }}>
-              <h3 className="text-white">Tools</h3>
-            </div>
-            <div className="p-4">
-              <p>VSCode Neovim Linux Figma Git Font Awesome</p>
-            </div>
-          </div>
-
-          <div className="border p-0" style={{ borderColor: "#ABB2BF" }}>
-            <div className="border-b p-2" style={{ borderColor: "#ABB2BF" }}>
-              <h3 className="text-white">Databases</h3>
-            </div>
-            <div className="p-4">
-              <p>SQLite PostgreSQL MongoDB</p>
-            </div>
-          </div>
-
-          <div className="border p-0" style={{ borderColor: "#ABB2BF" }}>
-            <div className="border-b p-2" style={{ borderColor: "#ABB2BF" }}>
-              <h3 className="text-white">Frameworks</h3>
-            </div>
-            <div className="p-4">
-              <p>React Vue Express.js Discord.js Flask Django.js Node.js</p>
-            </div>
-          </div>
-        </div>
-      </section>
+              <DotPattern className="bottom-10 left-10 w-32 h-32" />
+              <DotPattern className="top-20 right-20 w-32 h-32" />
+      
+              <h2 className="hash-title mb-12">skills</h2>
+      
+              <div className="skills-grid">
+                <div className="skill-card">
+                  <div className="skill-card-header">Languages</div>
+                  <div className="skill-card-body">
+                    TypeScript Lua Python JavaScript
+                  </div>
+                </div>
+      
+                <div className="skill-card">
+                  <div className="skill-card-header">Databases</div>
+                  <div className="skill-card-body">SQLite PostgreSQL MongoDB</div>
+                </div>
+      
+                <div className="skill-card">
+                  <div className="skill-card-header">Tools</div>
+                  <div className="skill-card-body">
+                    VSCode Neovim Linux Figma XFCE Arch Git Font Awesome
+                  </div>
+                </div>
+      
+                <div className="skill-card">
+                  <div className="skill-card-header">Other</div>
+                  <div className="skill-card-body">HTML CSS EJS SCSS REST Jinja</div>
+                </div>
+      
+                <div className="skill-card">
+                  <div className="skill-card-header">Frameworks</div>
+                  <div className="skill-card-body">
+                    React Vue Disnake Discord.js Flask Express.js
+                  </div>
+                </div>
+              </div>
+            </section>
 
       {/* About Me Preview */}
       <section className="relative">
@@ -245,7 +234,10 @@ export default function Home() {
               other request or question, don't hesitate to contact me.
             </p>
           </div>
-          <div className="border p-4" style={{ borderColor: "#ABB2BF" }}>
+          <div
+            className="border p-4 transition-colors duration-300"
+            style={{ borderColor: "var(--border-color)" }}
+          >
             <h3 className="text-white mb-4">Message me here</h3>
             <div className="space-y-2">
               <div className="flex items-center gap-2">

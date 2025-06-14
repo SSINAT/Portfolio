@@ -1,9 +1,11 @@
-import DotPattern from "@/components/dot-pattern"
+import DotPattern from "@/components/dot-pattern";
 import DecorativeElements from "@/components/decorative-elements";
+
 export default function Contacts() {
   return (
-    <div className="px-4 md:px-32 space-y-16 pb-16 relative overflow-hidden">
-          <DecorativeElements variant="works" />
+    <div className="px-4 md:px-32 space-y-16 pb-16 relative">
+      <DecorativeElements variant="contacts" />
+
       <section className="relative pt-8">
         <DotPattern className="top-20 right-10 w-32 h-32" />
         <DotPattern className="bottom-0 left-20 w-32 h-32" />
@@ -18,7 +20,10 @@ export default function Contacts() {
               other request or question, don't hesitate to contact me.
             </p>
           </div>
-          <div className="border border-[#ABB2BF] p-6">
+          <div
+            className="border p-6 transition-colors duration-300"
+            style={{ borderColor: "var(--border-color)" }}
+          >
             <h3 className="text-white mb-4">Message me here</h3>
             <div className="space-y-4">
               <div className="flex items-center gap-2">

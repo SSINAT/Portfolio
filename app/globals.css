@@ -10,10 +10,18 @@
   --border-color: #abb2bf;
 }
 
+[data-theme="light"] {
+  --background: #f8f9fa;
+  --foreground: #5c6370;
+  --primary: #c778dd;
+  --white: #282c33;
+  --border-color: #5c6370;
+}
 body {
   background-color: var(--background);
   color: var(--foreground);
   font-family: var(--font-fira-code);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 @layer base {
@@ -23,7 +31,8 @@ body {
   h4,
   h5,
   h6 {
-    @apply text-white;
+    color: var(--white);
+    transition: color 0.3s ease;
   }
 }
 
@@ -32,34 +41,58 @@ body {
     background-image: radial-gradient(circle, var(--foreground) 1px, transparent 1px);
     background-size: 20px 20px;
     opacity: 0.2;
+    transition: background-image 0.3s ease;
   }
 
   .section-title {
-    @apply text-white font-fira-code text-xl md:text-2xl font-medium flex items-center;
+    @apply font-fira-code text-xl md:text-2xl font-medium flex items-center gap-4;
+    color: var(--white);
+    transition: color 0.3s ease;
   }
 
   .section-title::before {
     content: "/";
-    @apply text-primary mr-1;
+    color: var(--primary);
+    @apply mr-1;
   }
 
+ /* .section-title::after {
+    content: "";
+    @apply flex-1 h-px;
+    background-color: var(--primary);
+    max-width: 300px;
+  } */
+
   .hash-title {
-    @apply text-white font-fira-code text-xl md:text-2xl font-medium flex items-center;
+    @apply font-fira-code text-xl md:text-2xl font-medium flex items-center gap-4;
+    color: var(--white);
+    transition: color 0.3s ease;
   }
 
   .hash-title::before {
     content: "#";
-    @apply text-primary mr-1;
+    color: var(--primary);
+    @apply mr-1;
+  }
+
+  .hash-title::after {
+    content: "";
+    @apply flex-1 h-px;
+    background-color: var(--primary);
+    max-width: 300px;
   }
 
   .project-card {
-    @apply border bg-background;
+    @apply border;
+    background-color: var(--background);
     border-color: var(--border-color);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
   }
 
   .project-card-header {
     @apply border-b p-2 text-sm;
     border-color: var(--border-color);
+    transition: border-color 0.3s ease;
   }
 
   .project-card-body {
@@ -69,15 +102,45 @@ body {
   .project-card-footer {
     @apply border-t p-2 flex gap-2;
     border-color: var(--border-color);
+    transition: border-color 0.3s ease;
   }
 
   .btn {
-    @apply border text-white px-4 py-2 inline-flex items-center justify-center hover:bg-primary/10 transition-colors;
+    @apply border px-4 py-2 inline-flex items-center justify-center hover:bg-primary/10 transition-colors;
     border-color: var(--primary);
+    color: var(--white);
   }
 
   .btn-outline {
-    @apply border text-white px-4 py-2 inline-flex items-center justify-center hover:bg-white/5 transition-colors;
+    @apply border px-4 py-2 inline-flex items-center justify-center hover:bg-white/5 transition-colors;
     border-color: var(--border-color);
+    color: var(--white);
   }
+
+
+  /* Skills section specific styles */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    max-width: 600px;
+  }
+
+  .skill-card {
+    @apply border p-0 transition-colors duration-300;
+    border-color: var(--border-color);
+    background-color: var(--background);
+  }
+
+  .skill-card-header {
+    @apply border-b p-2 text-sm font-medium transition-colors duration-300;
+    border-color: var(--border-color);
+    color: var(--white);
+  }
+
+  .skill-card-body {
+    @apply p-3 text-sm;
+    color: var(--foreground);
+  }
+
 }

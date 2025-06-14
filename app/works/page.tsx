@@ -11,12 +11,10 @@ export default function Works() {
         <DotPattern className="top-20 right-10 w-32 h-32" />
         <DotPattern className="bottom-0 left-20 w-32 h-32" />
 
-        <h1 className="section-title mb-4">projects</h1>
+        <h2 className="section-title mb-12">projects</h2>
         <p className="mb-12">List of my projects</p>
 
-        <h2 className="text-white text-xl mb-6">
-          <span className="text-primary">#</span>complete-apps
-        </h2>
+        <h2 className="hash-title mb-6">complete-apps</h2>
 
         <div className="grid md:grid-cols-3 gap-4 mb-16">
           <ProjectCard
@@ -48,9 +46,7 @@ export default function Works() {
           />
         </div>
 
-        <h2 className="text-white text-xl mb-6">
-          <span className="text-primary">#</span>small-projects
-        </h2>
+        <h2 className="hash-title mb-6">small-projects</h2>
 
         <div className="grid md:grid-cols-3 gap-4">
           <ProjectCard

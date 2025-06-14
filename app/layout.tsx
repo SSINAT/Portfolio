@@ -16,9 +16,6 @@ export const metadata: Metadata = {
   title: "Sinat | Portfolio",
   description: "Web designer and front-end developer",
   creator: "sinat",
-  icons: {
-    icon: "/images/Logoblack.svg", // Path to your logo image
-  },
 };
 
 export default function RootLayout({
@@ -28,6 +25,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="icon"
+          href="/images/Logoblack.svg"
+          media="(prefers-color-scheme: light)"
+        />
+        <link
+          rel="icon"
+          href="/images/Logowhite.svg"
+          media="(prefers-color-scheme: dark)"
+        />
+      </head>
       <body
         className={`${inter.variable} ${firaCode.variable} bg-background text-foreground`}
       >

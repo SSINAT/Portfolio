@@ -4,8 +4,9 @@ import DecorativeElements from "@/components/decorative-elements";
 
 export default function AboutMe() {
   return (
-   <div className="px-4 md:px-32 space-y-16 pb-16 relative overflow-hidden">
-             <DecorativeElements variant="works" />
+    <div className="px-4 md:px-32 space-y-16 pb-16 relative">
+      <DecorativeElements variant="about" />
+
       <section className="relative pt-8">
         <DotPattern className="top-20 right-10 w-32 h-32" />
         <DotPattern className="bottom-0 left-20 w-32 h-32" />
@@ -109,25 +110,46 @@ export default function AboutMe() {
         <h2 className="hash-title mb-12">my-fun-facts</h2>
 
         <div className="grid md:grid-cols-2 gap-6">
-          <div className="border p-4" style={{ borderColor: "#ABB2BF" }}>
+          <div
+            className="border p-4 transition-colors duration-300"
+            style={{ borderColor: "var(--border-color)" }}
+          >
             <p>I like winter more than summer</p>
           </div>
-          <div className="border p-4" style={{ borderColor: "#ABB2BF" }}>
+          <div
+            className="border p-4 transition-colors duration-300"
+            style={{ borderColor: "var(--border-color)" }}
+          >
             <p>I often bike with my friends</p>
           </div>
-          <div className="border p-4" style={{ borderColor: "#ABB2BF" }}>
+          <div
+            className="border p-4 transition-colors duration-300"
+            style={{ borderColor: "var(--border-color)" }}
+          >
             <p>My favorite movie is The Matrix</p>
           </div>
-          <div className="border p-4" style={{ borderColor: "#ABB2BF" }}>
+          <div
+            className="border p-4 transition-colors duration-300"
+            style={{ borderColor: "var(--border-color)" }}
+          >
             <p>I'm still in school</p>
           </div>
-          <div className="border p-4" style={{ borderColor: "#ABB2BF" }}>
+          <div
+            className="border p-4 transition-colors duration-300"
+            style={{ borderColor: "var(--border-color)" }}
+          >
             <p>I like pizza and pasta</p>
           </div>
-          <div className="border p-4" style={{ borderColor: "#ABB2BF" }}>
+          <div
+            className="border p-4 transition-colors duration-300"
+            style={{ borderColor: "var(--border-color)" }}
+          >
             <p>I don't have any pets</p>
           </div>
-          <div className="border p-4" style={{ borderColor: "#ABB2BF" }}>
+          <div
+            className="border p-4 transition-colors duration-300"
+            style={{ borderColor: "var(--border-color)" }}
+          >
             <p>My favorite book is The Hobbit</p>
           </div>
         </div>
