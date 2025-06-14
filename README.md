@@ -1,11 +1,10 @@
-# Elias Portfolio
+# SInat Portfolio
 
-A modern, responsive portfolio website built with Next.js 14, featuring a sleek dark/light theme toggle and engaging animations. This portfolio showcases web development projects with a clean, developer-focused design inspired by code editors and terminal interfaces.
+A modern, responsive portfolio website built with Next.js 14, featuring a  engaging animations. This portfolio showcases web development projects with a clean, developer-focused design inspired by code editors and terminal interfaces.
 
 ## ✨ Features
 
 ### 🎨 Design & UI
-- **Dark/Light Mode Toggle**: Seamless theme switching with smooth transitions
 - **Animated Typography**: Typewriter effect that repeats every 5 seconds
 - **Responsive Design**: Optimized for all screen sizes (mobile, tablet, desktop)
 - **Code-Inspired Aesthetics**: Terminal-like design with monospace fonts
@@ -37,15 +36,15 @@ A modern, responsive portfolio website built with Next.js 14, featuring a sleek 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js 18+ 
+- Node.js  
 - npm, yarn, or pnpm
 
 ### Installation
 
 1. **Clone the repository**
    \`\`\`bash
-   git clone https://github.com/yourusername/elias-portfolio.git
-   cd elias-portfolio
+   git clone https://github.com/SSINAT/Portfolio.git
+   cd MYPORTFILIO
    \`\`\`
 
 2. **Install dependencies**
@@ -53,26 +52,20 @@ A modern, responsive portfolio website built with Next.js 14, featuring a sleek 
    npm install
    # or
    yarn install
-   # or
-   pnpm install
-   \`\`\`
-
+ 
 3. **Run the development server**
    \`\`\`bash
    npm run dev
    # or
    yarn dev
-   # or
-   pnpm dev
-   \`\`\`
 
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
 ## 📁 Project Structure
 
-\`\`\`
-elias-portfolio/
+
+MYPORTFILIO/
 ├── app/                    # Next.js App Router pages
 │   ├── about-me/          # About page
 │   ├── contacts/          # Contact page
@@ -93,7 +86,7 @@ elias-portfolio/
 ├── public/                # Static assets
 │   └── images/           # Project images and logos
 └── README.md             # Project documentation
-\`\`\`
+
 
 ## 🎨 Customization
 
@@ -168,17 +161,7 @@ Reusable component for showcasing projects with images, tags, and links.
 
 ## 🚀 Deployment
 
-### Vercel (Recommended)
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Deploy automatically with zero configuration
 
-### Other Platforms
-The project can be deployed to any platform that supports Next.js:
-- Netlify
-- Railway
-- DigitalOcean App Platform
-- AWS Amplify
 
 ## 📄 License
 
@@ -186,13 +169,12 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/elias-portfolio/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/SSINAT/Portfolio.git/issues).
 
 ## 📞 Contact
 
-- **Email**: elias@example.com
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Portfolio**: [your-portfolio.com](https://your-portfolio.com)
+- **Email**: sinathbg@gmail.com
+- **GitHub**: [@yourusername](https://github.com/SSINAT/Portfolio.git)
 
 ---
 
