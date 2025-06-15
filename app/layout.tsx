@@ -5,6 +5,8 @@ import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import MediaSidebar from "@/components/media-sidebar";
+import { ThemeProvider } from "@/components/theme-provider";
+import PageTransition from "@/components/page-transition";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const firaCode = Fira_Code({
@@ -24,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <link
           rel="icon"
@@ -40,12 +42,16 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${firaCode.variable} bg-background text-foreground`}
       >
-        <div className="min-h-screen flex flex-col relative">
-          <MediaSidebar />
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </div>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+          <div className="min-h-screen flex flex-col relative">
+            <MediaSidebar />
+            <Header />
+            <main className="flex-1">
+              <PageTransition>{children}</PageTransition>
+            </main>
+            <Footer />
+          </div>
+        </ThemeProvider>
       </body>
     </html>
   );
