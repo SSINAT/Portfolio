@@ -30,7 +30,7 @@ export default function Works() {
                 imageSrc: "/images/JobHuntersvg.svg",
                 imageAlt: "JobHunter project",
                 delay: 0.1,
-                liveLink: "#",
+                liveLink: "http://localhost:5173/",
                 githubLink: "#",
               },
               {
