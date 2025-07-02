@@ -132,20 +132,25 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-4">
             {[
               {
-                title: "Wifi Hotspot ITC",
-                description: "Wifi hotspot ITC Security Of Cybernet Lab",
-                tags: ["cisco", "switch", "Router", "DHCP", "DNS"],
-                imageSrc: "/images/wifi.png",
-                imageAlt: "ITC Wifi Hotspot project",
+                title: "Monitoring System",
+                description: "Monitoring System Of Cybernet Lab",
+                tags: ["Docker", "NestJS", "VueJs", "Prometheus", "DNS"],
+                imageSrc: "/images/monitoring.png",
+                imageAlt: "Monitoring System project",
                 delay: 0.1,
+                liveLink: "https://motoring-system.vercel.app/",
+                githubLink: "https://github.com/SSINAT/motoring-system.git",
               },
               {
-                title: "ProtectX",
-                description: "Discord anti-crash bot",
-                tags: ["React", "Express", "Discord.js", "Node.js"],
-                imageSrc: "/images/protectx.png",
-                imageAlt: "ProtectX project",
-                delay: 0.2,
+                title: "JobHunter",
+                description:
+                  "Job search platform for job seekers and employers",
+                tags: ["Vue", "Nest.js", "Minio", "postgreSQL"],
+                imageSrc: "/images/JobHuntersvg.svg",
+                imageAlt: "JobHunter project",
+                delay: 0.1,
+                liveLink: "https://job-hunter-kh.vercel.app/",
+                githubLink: "https://github.com/SSINAT/JobHunter-web.git",
               },
               {
                 title: "My Portfolio",
