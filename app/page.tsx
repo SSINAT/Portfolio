@@ -153,7 +153,7 @@ export default function Home() {
                 tags: ["React", "Express", "Node.js"],
                 imageSrc: "/images/portfolio.png",
                 imageAlt: "My Portfolio project",
-                liveLink: "https://sinasinat.vercel.app/works",
+                liveLink: "https://www.portfoliome.site/",
                 githubLink: "https://github.com/SSINAT/Portfolio.git",
                 delay: 0.3,
               },

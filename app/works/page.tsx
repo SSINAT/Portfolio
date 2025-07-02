@@ -30,7 +30,7 @@ export default function Works() {
                 imageSrc: "/images/JobHuntersvg.svg",
                 imageAlt: "JobHunter project",
                 delay: 0.1,
-                liveLink: "http://localhost:5173/",
+                liveLink: "https://job-hunter-kh.vercel.app/",
                 githubLink: "https://github.com/SSINAT/JobHunter-web.git",
               },
               {
