@@ -89,6 +89,16 @@ export default function Works() {
                 githubLink: "https://github.com/SSINAT/AngkorApsara.git",
               },
               {
+                title: "Monitoring System",
+                description: "Monitoring System Of Cybernet Lab",
+                tags: ["Docker", "NestJS", "VueJs", "Prometheus", "DNS"],
+                imageSrc: "/images/monitoring.png",
+                imageAlt: "Monitoring System project",
+                delay: 0.1,
+                liveLink: "https://motoring-system.vercel.app/",
+                githubLink: "https://github.com/SSINAT/motoring-system.git",
+              },
+              {
                 title: "My Portfolio",
                 description: "Personal Portfolio website",
                 tags: ["React", "Express", "Node.js"],
@@ -125,7 +135,8 @@ export default function Works() {
                 imageSrc: "/images/TicQuizApp.png",
                 imageAlt: "TIC Quiz App project",
                 delay: 0.5,
-                liveLink: "#",
+
+                githubLink: "https://github.com/SSINAT/Moblie-Project.git",
               },
               {
                 title: "Game 2048",
