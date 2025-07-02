@@ -153,6 +153,8 @@ export default function Home() {
                 tags: ["React", "Express", "Node.js"],
                 imageSrc: "/images/portfolio.png",
                 imageAlt: "My Portfolio project",
+                liveLink: "https://sinasinat.vercel.app/works",
+                githubLink: "https://github.com/SSINAT/Portfolio.git",
                 delay: 0.3,
               },
             ].map((project, index) => (
@@ -167,8 +169,8 @@ export default function Home() {
                   tags={project.tags}
                   imageSrc={project.imageSrc}
                   imageAlt={project.imageAlt}
-                  liveLink="#"
-                  githubLink="#"
+                  liveLink={project.liveLink}
+                  githubLink={project.githubLink}
                 />
               </SectionReveal>
             ))}

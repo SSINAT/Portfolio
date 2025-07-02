@@ -31,7 +31,7 @@ export default function Works() {
                 imageAlt: "JobHunter project",
                 delay: 0.1,
                 liveLink: "http://localhost:5173/",
-                githubLink: "#",
+                githubLink: "https://github.com/SSINAT/JobHunter-web.git",
               },
               {
                 title: "Kahoot Answers",
@@ -85,7 +85,8 @@ export default function Works() {
                 imageSrc: "/images/ecommerce.png",
                 imageAlt: "E-commerce project",
                 delay: 0.1,
-                githubLink: "#",
+                liveLink: "#",
+                githubLink: "https://github.com/SSINAT/AngkorApsara.git",
               },
               {
                 title: "My Portfolio",
@@ -94,8 +95,8 @@ export default function Works() {
                 imageSrc: "/images/portfolio.png",
                 imageAlt: "My Portfolio project",
                 delay: 0.2,
-                githubLink: "#",
-                liveLink: "#",
+                githubLink: "https://github.com/SSINAT/Portfolio.git",
+                liveLink: "https://sinasinat.vercel.app/works",
               },
               {
                 title: "ChertNodes",
