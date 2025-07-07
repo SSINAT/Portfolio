@@ -1,5 +1,5 @@
 interface DecorativeElementsProps {
-  variant?: "home" | "works" | "about" | "contacts";
+  variant?: "home" | "works" | "about" | "contacts" | "resume";
 }
 
 export default function DecorativeElements({

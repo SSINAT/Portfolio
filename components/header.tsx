@@ -16,7 +16,8 @@ export default function Header() {
     { name: "works", path: "/works" },
     { name: "about-me", path: "/about-me" },
     { name: "contacts", path: "/contacts" },
-  ]
+    { name: "resume", path: "/resume" },
+  ];
 
   return (
     <header className="py-8 px-4 md:px-32">
