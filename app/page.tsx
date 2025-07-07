@@ -155,7 +155,7 @@ export default function Home() {
               {
                 title: "My Portfolio",
                 description: "Personal Portfolio website",
-                tags: ["React", "Express", "Node.js"],
+                tags: ["React", "Next.js", "Node.js"],
                 imageSrc: "/images/portfolio.png",
                 imageAlt: "My Portfolio project",
                 liveLink: "https://www.portfoliome.site/",
@@ -215,17 +215,17 @@ export default function Home() {
                 {
                   title: "Tools",
                   content:
-                    "VSCode Neovim Linux Figma XFCE Arch Git Font Awesome",
+                    "VSCode Neovim Linux Figma  Arch Git Font Awesome",
                   delay: 0.3,
                 },
                 {
                   title: "Other",
-                  content: "HTML CSS EJS SCSS REST Jinja",
+                  content: "HTML CSS EJS SCSS REST",
                   delay: 0.4,
                 },
                 {
                   title: "Frameworks",
-                  content: "React Vue Disnake Discord.js Flask Express.js",
+                  content: "React Vue SpringBoot Nest.js Next.js Flask Express.js",
                   delay: 0.5,
                 },
               ].map((skill) => (
