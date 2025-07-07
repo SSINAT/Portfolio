@@ -15,7 +15,7 @@ export default function Footer() {
               <Image src="/images/Logo.svg" alt="Logo" width={72} height={21} />
             </Link>
             <p className="text-sm">
-              Web designer and full-stack developer
+              CyberSecurity and full-stack developer
             </p>
           </div>
         </div>

@@ -57,7 +57,7 @@ export default function Home() {
                 >
                   <div className="relative">
                     <Image
-                      src="/images/portfolio.svg"
+                      src="/images/me6.png"
                       alt="Sinat portrait"
                       width={400}
                       height={400}
@@ -214,8 +214,7 @@ export default function Home() {
                 },
                 {
                   title: "Tools",
-                  content:
-                    "VSCode Neovim Linux Figma  Arch Git Font Awesome",
+                  content: "VSCode Neovim Linux Figma  Arch Git Font Awesome",
                   delay: 0.3,
                 },
                 {
@@ -225,7 +224,8 @@ export default function Home() {
                 },
                 {
                   title: "Frameworks",
-                  content: "React Vue SpringBoot Nest.js Next.js Flask Express.js",
+                  content:
+                    "React Vue SpringBoot Nest.js Next.js Flask Express.js",
                   delay: 0.5,
                 },
               ].map((skill) => (
@@ -285,16 +285,24 @@ export default function Home() {
             <SectionReveal direction="right" delay={0.5}>
               <div className="relative flex justify-center">
                 <div className="portrait-3d-container">
-                  <div className="portrait-3d relative">
-                    <Image
-                      src="/images/sinat-portrait.svg"
-                      alt="Sinat portrait"
-                      width={300}
-                      height={400}
-                      className="object-cover rounded-lg shadow-2xl"
-                      priority
-                    />
-                  </div>
+                  {/* <div
+                    className="border mx-auto"
+                    style={{
+                      borderColor: "var(--border-color)",
+                      width: "fit-content",
+                    }}
+                  > */}
+                    <div className="portrait-3d relative">
+                      <Image
+                        src="/images/me7.png"
+                        alt="Sinat portrait"
+                        width={300}
+                        height={400}
+                        // className="object-cover rounded-lg shadow-2xl"
+                        priority
+                      />
+                    </div>
+                 
                 </div>
                 <DotPattern className="absolute -bottom-10 -left-10 w-32 h-32" />
               </div>
@@ -312,7 +320,7 @@ export default function Home() {
             <SectionReveal direction="left" delay={0.3}>
               <div>
                 <p className="mb-6">
-                  I'm interested in freelance opportunities. However, if you
+                  I'm interested in Internship opportunities. However, if you
                   have other request or question, don't hesitate to contact me.
                 </p>
               </div>

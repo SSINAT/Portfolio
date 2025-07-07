@@ -19,7 +19,7 @@ export default function Contacts() {
             <SectionReveal direction="left" delay={0.2}>
               <div>
                 <p className="mb-6">
-                  I'm interested in freelance opportunities. However, if you
+                  I'm interested in internship opportunities. However, if you
                   have other request or question, don't hesitate to contact me.
                 </p>
               </div>
