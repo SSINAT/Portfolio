@@ -94,8 +94,8 @@ export default function Resume() {
                   <Image
                     src="/images/logoresume.png"
                     alt="Sinat Logo"
-                    width={80}
-                    height={80}
+                    width={60}
+                    height={60}
                     className="print:w-16 print:h-16 object-contain"
                     priority
                   />
@@ -165,7 +165,7 @@ export default function Resume() {
                     style={{ borderColor: "var(--border-color)" }}
                   >
                     <Phone className="w-4 h-4 print:w-3 print:h-3" />
-                    <span>+855 123 456 789</span>
+                    <span>+855 96 41 41 428</span>
                   </div>
                 </SectionReveal>
               </div>
@@ -178,21 +178,26 @@ export default function Resume() {
                 <SectionReveal delay={0.2}>
                   <section>
                     <div
-                      className="border-b pb-2 mb-3 print:mb-2"
+                      className="border"
                       style={{ borderColor: "var(--border-color)" }}
                     >
-                      <h2 className="text-white text-lg font-medium print:text-base">
-                        Summary
-                      </h2>
+                      <div
+                        className="border-b px-3 py-1 print:px-2 print:py-1"
+                        style={{ borderColor: "var(--border-color)" }}
+                      >
+                        <h2 className="text-white text-lg font-medium print:text-base">
+                          Summary
+                        </h2>
+                      </div>
+                      <div className=" p-3 space-y-1 text-foreground text-sm print:text-xs">
+                        Self-motivated and highly reliable full-stack developer
+                        based in Phnom Penh, Cambodia. With experience in
+                        project development, modern web technologies, and great
+                        communication skills. Passionate about creating
+                        user-friendly web experiences and always eager to learn
+                        new technologies.
+                      </div>
                     </div>
-                    <p className="text-foreground text-sm print:text-xs">
-                      Self-motivated and highly reliable full-stack developer
-                      based in Phnom Penh, Cambodia. With experience in project
-                      development, modern web technologies, and great
-                      communication skills. Passionate about creating
-                      user-friendly web experiences and always eager to learn
-                      new technologies.
-                    </p>
                   </section>
                 </SectionReveal>
 
