@@ -10,13 +10,13 @@
   --border-color: #abb2bf;
 }
 
-[data-theme="light"] {
+/* [data-theme="light"] {
   --background: #f8f9fa;
   --foreground: #5c6370;
   --primary: #c778dd;
   --white: #282c33;
   --border-color: #5c6370;
-}
+} */
 body {
   background-color: var(--background);
   color: var(--foreground);
@@ -56,12 +56,12 @@ body {
     @apply mr-1;
   }
 
- /* .section-title::after {
+ .section-title::after {
     content: "";
     @apply flex-1 h-px;
     background-color: var(--primary);
     max-width: 300px;
-  } */
+  }
 
   .hash-title {
     @apply font-fira-code text-xl md:text-2xl font-medium flex items-center gap-4;
