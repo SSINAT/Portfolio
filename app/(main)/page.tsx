@@ -1,6 +1,7 @@
 import Image from "next/image";
 import DotPattern from "@/components/dot-pattern";
 import ProjectCard from "@/components/project-card";
+import CertificateCard from "@/components/certificate-card";
 import DecorativeElements from "@/components/decorative-elements";
 import AnimatedText from "@/components/animated-text";
 import AnimatedLink from "@/components/animated-link";
@@ -24,7 +25,10 @@ export default function Home() {
                   <AnimatedText
                     parts={[
                       { text: "Sinat is a " },
-                      { text: "cyber Security", className: "text-primary" },
+                      {
+                        text: "cybersecurity specialist",
+                        className: "text-primary",
+                      },
                       { text: " and " },
                       {
                         text: "full-stack developer",
@@ -37,7 +41,7 @@ export default function Home() {
                   />
                 </h1>
                 <p className="text-foreground">
-                  He crafts responsive websites where technologies meet
+                  He crafts secure responsive websites where cybersecurity meets
                   creativity
                 </p>
                 <AnimatedLink href="/contacts" className="btn">
@@ -72,12 +76,12 @@ export default function Home() {
                       }}
                     >
                       <p className="text-sm">
-                        <span className="text-white">Currently working on</span>{" "}
+                        <span className="text-white">Currently working as</span>{" "}
                         <a
                           href="https://itc.edu.kh/"
                           className="text-primary hover:underline"
                         >
-                          /full-stack developer
+                          Cybersecurity Specialist
                         </a>
                       </p>
                     </div>
@@ -133,7 +137,8 @@ export default function Home() {
             {[
               {
                 title: "Monitoring System",
-                description: "Monitoring System Of Cybernet Lab",
+                description:
+                  "Building monitoring system that can monitor different components in network system and infrastructure",
                 tags: ["Docker", "NestJS", "VueJs", "Prometheus", "DNS"],
                 imageSrc: "/images/monitoring.png",
                 imageAlt: "Monitoring System project",
@@ -148,7 +153,7 @@ export default function Home() {
                 tags: ["Vue", "Nest.js", "Minio", "postgreSQL"],
                 imageSrc: "/images/JobHuntersvg.svg",
                 imageAlt: "JobHunter project",
-                delay: 0.1,
+                delay: 0.2,
                 liveLink: "https://job-hunter-kh.vercel.app/",
                 githubLink: "https://github.com/SSINAT/JobHunter-web.git",
               },
@@ -197,29 +202,29 @@ export default function Home() {
                 src="/images/Group 36.svg"
                 alt="Skills pattern"
                 className=" absolute w-80 h-64 "
-                // style={{ filter: "brightness(0.8)" }}
               />
             </div>
             <div className="skills-grid">
               {[
                 {
+                  title: "Cybersecurity",
+                  content:
+                    "Ethical Hacking Penetration Testing Vulnerability Assessment Bug Bounty Web Security",
+                  delay: 0.1,
+                },
+                {
                   title: "Languages",
                   content: "TypeScript Lua Python JavaScript",
-                  delay: 0.1,
+                  delay: 0.2,
                 },
                 {
                   title: "Databases",
                   content: "SQLite PostgreSQL MongoDB",
-                  delay: 0.2,
-                },
-                {
-                  title: "Tools",
-                  content: "VSCode Neovim Linux Figma  Arch Git Font Awesome",
                   delay: 0.3,
                 },
                 {
-                  title: "Other",
-                  content: "HTML CSS EJS SCSS REST",
+                  title: "Tools",
+                  content: "VSCode Neovim Linux Figma Arch Git Font Awesome",
                   delay: 0.4,
                 },
                 {
@@ -227,6 +232,11 @@ export default function Home() {
                   content:
                     "React Vue SpringBoot Nest.js Next.js Flask Express.js",
                   delay: 0.5,
+                },
+                {
+                  title: "Other",
+                  content: "HTML CSS EJS SCSS REST",
+                  delay: 0.6,
                 },
               ].map((skill) => (
                 <SectionReveal
@@ -263,15 +273,18 @@ export default function Home() {
               <div className="space-y-6">
                 <p>Hello, I'm Sinat!</p>
                 <p>
-                  I'm a self-taught full-stack developer based in Phnom Penh,
-                  Cambodia. I can develop responsive websites from scratch and
-                  raise them into modern user-friendly web experiences.
+                  I'm a certified cybersecurity specialist and self-taught
+                  full-stack developer based in Phnom Penh, Cambodia. I
+                  specialize in ethical hacking, penetration testing, and
+                  developing secure responsive websites from scratch.
                 </p>
                 <p>
-                  Transforming my creativity and knowledge into websites has
-                  been my passion for over a year. I have been helping various
-                  clients to establish their presence online. I always strive to
-                  learn about the newest technologies and frameworks.
+                  With certifications in ethical hacking and web security, I
+                  combine my cybersecurity expertise with modern web development
+                  to create secure, user-friendly applications. I have been
+                  helping various clients establish their secure online presence
+                  while always staying updated with the latest security threats
+                  and technologies.
                 </p>
                 <AnimatedLink
                   href="/about-me"
@@ -285,28 +298,101 @@ export default function Home() {
             <SectionReveal direction="right" delay={0.5}>
               <div className="relative flex justify-center">
                 <div className="portrait-3d-container">
-                  {/* <div
-                    className="border mx-auto"
-                    style={{
-                      borderColor: "var(--border-color)",
-                      width: "fit-content",
-                    }}
-                  > */}
-                    <div className="portrait-3d relative">
-                      <Image
-                        src="/images/me7.png"
-                        alt="Sinat portrait"
-                        width={300}
-                        height={400}
-                        // className="object-cover rounded-lg shadow-2xl"
-                        priority
-                      />
-                    </div>
-                 
+                  <div className="portrait-3d relative">
+                    <Image
+                      src="/images/me7.png"
+                      alt="Sinat portrait"
+                      width={300}
+                      height={400}
+                      priority
+                    />
+                  </div>
                 </div>
                 <DotPattern className="absolute -bottom-10 -left-10 w-32 h-32" />
               </div>
             </SectionReveal>
+          </div>
+        </section>
+      </SectionReveal>
+
+      {/* Certifications Section */}
+      <SectionReveal delay={0.2}>
+        <section className="relative">
+          <DotPattern className="top-10 right-0 w-32 h-32" />
+
+          <div className="flex justify-between items-center mb-12">
+            <h2 className="section-title">certifications</h2>
+            <AnimatedLink
+              href="/resume"
+              className="text-white hover:text-primary transition-colors"
+            >
+              View resume ~~{">"}
+            </AnimatedLink>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-4">
+            {[
+              {
+                title: "Complete Ethical Hacking Bootcamp",
+                provider: "Udemy",
+                duration: "29 hours",
+                date: "July 2025",
+                imageSrc: "/images/certificates/ethical-hacking-bootcamp.png",
+                imageAlt: "Complete Ethical Hacking Bootcamp Certificate",
+                delay: 0.1,
+                certificateUrl:
+                  "https://www.udemy.com/certificate/UC-93658040-6ceb-4951-b02d-ba20600c3cdb/",
+              },
+              {
+                title: "Web Security & Bug Bounty: Learn Penetration Testing",
+                provider: "Udemy",
+                duration: "10.5 hours",
+                date: "July 2025",
+                imageSrc: "/images/certificates/web-security-bug-bounty.png",
+                imageAlt: "Web Security & Bug Bounty Certificate",
+                delay: 0.2,
+                certificateUrl:
+                  "https://www.udemy.com/certificate/UC-93658040-6ceb-4951-b02d-ba20600c3cdb/",
+              },
+              {
+                title:
+                  "Ethical Hacking: Design Command and Control using Python 3",
+                provider: "Udemy",
+                duration: "18.5 hours",
+                date: "July 2025",
+                imageSrc: "/images/certificates/ethical-hacking-python.png",
+                imageAlt: "Ethical Hacking Python Certificate",
+                delay: 0.3,
+                certificateUrl:
+                  "https://www.udemy.com/certificate/UC-3f2fd234-3968-464d-af5e-9c88861bde8f/",
+              },
+              {
+                title: "Become a Python Master",
+                provider: "Programiz",
+                duration: "5 courses",
+                date: "August 2023",
+                imageSrc: "/images/certificates/python-master-programiz.png",
+                imageAlt: "Python Master Professional Certificate",
+                delay: 0.4,
+                certificateUrl: "#",
+              },
+            ].map((certificate, index) => (
+              <SectionReveal
+                key={certificate.title}
+                delay={certificate.delay}
+                direction="up"
+              >
+                <CertificateCard
+                  title={certificate.title}
+                  provider={certificate.provider}
+                  duration={certificate.duration}
+                  date={certificate.date}
+                  imageSrc={certificate.imageSrc}
+                  imageAlt={certificate.imageAlt}
+                  certificateUrl={certificate.certificateUrl}
+                />
+              </SectionReveal>
+            ))}
           </div>
         </section>
       </SectionReveal>
@@ -320,8 +406,10 @@ export default function Home() {
             <SectionReveal direction="left" delay={0.3}>
               <div>
                 <p className="mb-6">
-                  I'm interested in Internship opportunities. However, if you
-                  have other request or question, don't hesitate to contact me.
+                  I'm interested in cybersecurity and full-stack development
+                  opportunities. Whether you need penetration testing, security
+                  consulting, or secure web development, don't hesitate to
+                  contact me.
                 </p>
               </div>
             </SectionReveal>

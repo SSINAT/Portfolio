@@ -13,6 +13,7 @@ import {
   Download,
   ArrowLeft,
   Printer,
+  Award,
 } from "lucide-react";
 import AnimatedLink from "@/components/animated-link";
 
@@ -190,12 +191,14 @@ export default function Resume() {
                         </h2>
                       </div>
                       <div className=" p-3 space-y-1 text-foreground text-sm print:text-xs">
-                        Self-motivated and highly reliable full-stack developer
-                        based in Phnom Penh, Cambodia. With experience in
-                        project development, modern web technologies, and great
-                        communication skills. Passionate about creating
-                        user-friendly web experiences and always eager to learn
-                        new technologies.
+                        Cybersecurity specialist and full-stack developer with
+                        expertise in ethical hacking, penetration testing, and
+                        web security. Certified in multiple cybersecurity
+                        domains with hands-on experience in system monitoring,
+                        vulnerability assessment, and secure application
+                        development. Passionate about creating secure,
+                        user-friendly web experiences while maintaining robust
+                        security standards.
                       </div>
                     </div>
                   </section>
@@ -274,21 +277,19 @@ export default function Resume() {
                             style={{ borderColor: "var(--border-color)" }}
                           >
                             <h3 className="text-white font-medium mb-2 print:text-sm print:mb-1">
-                              Mutiple Moniroting System
+                              Multiple Resources Monitoring System
                             </h3>
                             <ul className="text-foreground text-sm space-y-1 print:text-xs print:space-y-0">
                               <li>
-                                ★ Developed a unified dashboard using Vue 3 and
-                                NestJS with JWT authentication
+                                ★ Building monitoring system that can monitor
+                                different components in network system and
+                                infrastructure
                               </li>
                               <li>
-                                ★ Deployed services using Docker Compose, Nginx
-                                reverse proxy, and SSL across multiple hosts
+                                ★ It can be a platform that integrates with
+                                multiple open-source system together
                               </li>
-                              <li>
-                                ★ Led documentation, network planning, and
-                                result presentation with synthetic load testing
-                              </li>
+                              <li>★ And function in a single platform</li>
                             </ul>
                           </div>
                         </div>
