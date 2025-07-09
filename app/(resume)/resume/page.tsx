@@ -260,6 +260,93 @@ export default function Resume() {
                             className="border px-2 py-1 text-xs text-center min-w-[70px] print:min-w-[60px]"
                             style={{ borderColor: "var(--border-color)" }}
                           >
+                            <div>2024</div>
+                            <div>2025</div>
+                          </div>
+                          <div
+                            className="w-px h-8 mt-2 print:h-6"
+                            style={{ backgroundColor: "var(--border-color)" }}
+                          ></div>
+                        </div>
+                        <div className="flex-1">
+                          <div
+                            className="border p-3 print:p-2"
+                            style={{ borderColor: "var(--border-color)" }}
+                          >
+                            <h3 className="text-white font-medium mb-2 print:text-sm print:mb-1">
+                              Mutiple Moniroting System
+                            </h3>
+                            <ul className="text-foreground text-sm space-y-1 print:text-xs print:space-y-0">
+                              <li>
+                                ★ Developed a unified dashboard using Vue 3 and
+                                NestJS with JWT authentication
+                              </li>
+                              <li>
+                                ★ Deployed services using Docker Compose, Nginx
+                                reverse proxy, and SSL across multiple hosts
+                              </li>
+                              <li>
+                                ★ Led documentation, network planning, and
+                                result presentation with synthetic load testing
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Experience Item 3 */}
+                      <div className="flex gap-4 print:gap-3">
+                        <div className="flex flex-col items-center">
+                          <div
+                            className="border px-2 py-1 text-xs text-center min-w-[70px] print:min-w-[60px]"
+                            style={{ borderColor: "var(--border-color)" }}
+                          >
+                            <div>2024</div>
+                            <div>2025</div>
+                          </div>
+                          <div
+                            className="w-px h-8 mt-2 print:h-6"
+                            style={{ backgroundColor: "var(--border-color)" }}
+                          ></div>
+                        </div>
+                        <div className="flex-1">
+                          <div
+                            className="border p-3 print:p-2"
+                            style={{ borderColor: "var(--border-color)" }}
+                          >
+                            <h3 className="text-white font-medium mb-2 print:text-sm print:mb-1">
+                              System Administrator – Academic Deployment Project
+                            </h3>
+                            <ul className="text-foreground text-sm space-y-1 print:text-xs print:space-y-0">
+                              <li>
+                                ★ Deployed a Laravel-based CRUD application
+                                using Docker, PostgreSQL, and Nginx on Ubuntu
+                                Server
+                              </li>
+                              <li>
+                                ★ Configured CI/CD pipeline using Jenkins with
+                                GitHub integration
+                              </li>
+                              <li>
+                                ★ Set up reverse proxy, SSL, and automated
+                                backup scripts
+                              </li>
+                              <li>
+                                Implemented basic server hardening and
+                                deployment documentation
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Experience Item 2 */}
+                      <div className="flex gap-4 print:gap-3">
+                        <div className="flex flex-col items-center">
+                          <div
+                            className="border px-2 py-1 text-xs text-center min-w-[70px] print:min-w-[60px]"
+                            style={{ borderColor: "var(--border-color)" }}
+                          >
                             <div>2023</div>
                             <div>2024</div>
                           </div>
