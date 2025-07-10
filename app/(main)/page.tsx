@@ -333,39 +333,19 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-4">
             {[
               {
-                title: "Complete Ethical Hacking Bootcamp",
+                title:
+                  "The Complete Certified in Cybersecurity CC course ISC2 2025",
                 provider: "Udemy",
-                duration: "29 hours",
+                duration: "17.5 hours",
                 date: "July 2025",
-                imageSrc: "/images/certificates/ethical-hacking-bootcamp.png",
-                imageAlt: "Complete Ethical Hacking Bootcamp Certificate",
+                imageSrc: "/images/certificates/cc.png",
+                imageAlt:
+                  "Complete Certified in Cybersecurity CC course ISC2 2025",
                 delay: 0.1,
                 certificateUrl:
-                  "https://www.udemy.com/certificate/UC-93658040-6ceb-4951-b02d-ba20600c3cdb/",
+                  "https://www.udemy.com/certificate/UC-66ee55f3-255d-4c7e-84e2-8226c125eeee/",
               },
-              {
-                title: "Web Security & Bug Bounty: Learn Penetration Testing",
-                provider: "Udemy",
-                duration: "10.5 hours",
-                date: "July 2025",
-                imageSrc: "/images/certificates/web-security-bug-bounty.png",
-                imageAlt: "Web Security & Bug Bounty Certificate",
-                delay: 0.2,
-                certificateUrl:
-                  "https://www.udemy.com/certificate/UC-93658040-6ceb-4951-b02d-ba20600c3cdb/",
-              },
-              {
-                title:
-                  "Ethical Hacking: Design Command and Control using Python 3",
-                provider: "Udemy",
-                duration: "18.5 hours",
-                date: "July 2025",
-                imageSrc: "/images/certificates/ethical-hacking-python.png",
-                imageAlt: "Ethical Hacking Python Certificate",
-                delay: 0.3,
-                certificateUrl:
-                  "https://www.udemy.com/certificate/UC-3f2fd234-3968-464d-af5e-9c88861bde8f/",
-              },
+
               {
                 title: "Become a Python Master",
                 provider: "Programiz",
@@ -373,7 +353,7 @@ export default function Home() {
                 date: "August 2023",
                 imageSrc: "/images/certificates/python-master-programiz.png",
                 imageAlt: "Python Master Professional Certificate",
-                delay: 0.4,
+                delay: 0.2,
                 certificateUrl: "#",
               },
             ].map((certificate, index) => (
