@@ -26,7 +26,7 @@ export default function Home() {
                     parts={[
                       { text: "Sinat is a " },
                       {
-                        text: "cybersecurity specialist",
+                        text: "cybersecurity ",
                         className: "text-primary",
                       },
                       { text: " and " },
@@ -81,7 +81,7 @@ export default function Home() {
                           href="https://itc.edu.kh/"
                           className="text-primary hover:underline"
                         >
-                          Cybersecurity Specialist
+                          Cybersecurity 
                         </a>
                       </p>
                     </div>
