@@ -109,9 +109,9 @@ export default function Works() {
               },
               {
                 title: "Monitoring System",
-                description: "Monitoring System Of Cybernet Lab",
+                description: "Integrate multiple open-source tool to function as monitoring system ",
                 tags: ["Docker", "NestJS", "VueJs", "Prometheus", "DNS"],
-                imageSrc: "/images/mmrs.png",
+                imageSrc: "/images/monitor.png",
                 imageAlt: "Monitoring System project",
                 delay: 0.1,
                 liveLink: "https://motoring-system.vercel.app/",
