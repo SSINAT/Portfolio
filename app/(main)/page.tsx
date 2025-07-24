@@ -333,6 +333,17 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-4">
             {[
               {
+                title: "The Complete Certified in Ethical Hacker",
+                provider: "Cisco",
+                duration: "70 hours",
+                date: "July 2025",
+                imageSrc: "/images/certificates/EthicalHacker-Cisco.png",
+                imageAlt: "Complete Certified in Ethical Hacker",
+                delay: 0.1,
+                certificateUrl:
+                  "https://www.credly.com/badges/238f9a4c-5c8c-4f62-8e7d-34b33d1b18c5",
+              },
+              {
                 title:
                   "The Complete Certified in Cybersecurity CC course ISC2 2025",
                 provider: "Udemy",
@@ -341,9 +352,20 @@ export default function Home() {
                 imageSrc: "/images/certificates/cc.png",
                 imageAlt:
                   "Complete Certified in Cybersecurity CC course ISC2 2025",
-                delay: 0.1,
+                delay: 0.2,
                 certificateUrl:
                   "https://www.udemy.com/certificate/UC-66ee55f3-255d-4c7e-84e2-8226c125eeee/",
+              },
+              {
+                title: "Introduction to Cloud Computing",
+                provider: " CourseraIBM",
+                duration: "5 courses",
+                date: "August 2023",
+                imageSrc: "/images/certificates/IBM-cloud.png",
+                imageAlt: "Introduction to Cloud Computing",
+                delay: 0.3,
+                certificateUrl:
+                  "https://www.credly.com/badges/93281a76-3730-4b00-a914-4b0a6fff4f17",
               },
 
               {
@@ -353,7 +375,7 @@ export default function Home() {
                 date: "August 2023",
                 imageSrc: "/images/certificates/python-master-programiz.png",
                 imageAlt: "Python Master Professional Certificate",
-                delay: 0.2,
+                delay: 0.4,
                 certificateUrl:
                   "https://programiz.pro/certificates/detail/BC79042B2F70",
               },
