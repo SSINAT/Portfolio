@@ -81,7 +81,7 @@ export default function Home() {
                           href="https://itc.edu.kh/"
                           className="text-primary hover:underline"
                         >
-                          Cybersecurity 
+                          Cybersecurity
                         </a>
                       </p>
                     </div>
@@ -138,9 +138,9 @@ export default function Home() {
               {
                 title: "Monitoring System",
                 description:
-                  "Building monitoring system that can monitor different components in network system and infrastructure",
+                  "Integrate multiple open-source tool to function as monitoring system",
                 tags: ["Docker", "NestJS", "VueJs", "Prometheus", "DNS"],
-                imageSrc: "/images/monitoring.png",
+                imageSrc: "/images/mmrs.png",
                 imageAlt: "Monitoring System project",
                 delay: 0.1,
                 liveLink: "https://motoring-system.vercel.app/",
@@ -354,7 +354,8 @@ export default function Home() {
                 imageSrc: "/images/certificates/python-master-programiz.png",
                 imageAlt: "Python Master Professional Certificate",
                 delay: 0.2,
-                certificateUrl: "#",
+                certificateUrl:
+                  "https://programiz.pro/certificates/detail/BC79042B2F70",
               },
             ].map((certificate, index) => (
               <SectionReveal
