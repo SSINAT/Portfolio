@@ -27,7 +27,7 @@ export default function CertificateCard({
       <div className="project-card-header" style={{ borderColor: "#ABB2BF" }}>
         {provider} • {duration} • {date}
       </div>
-      <div className="relative h-48 overflow-hidden">
+      <div className="relative h-60 overflow-hidden overflow-hidden">
         <Image
           src={imageSrc || "/placeholder.svg"}
           alt={imageAlt}
