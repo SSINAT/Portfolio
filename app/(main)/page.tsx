@@ -162,7 +162,7 @@ export default function Home() {
                 description: "Personal Portfolio website",
                 tags: ["React", "Next.js", "Node.js"],
                 imageSrc: "/images/portfolio.png",
-                imageAlt: "My Portfolio project",
+                imageAlt: "My Portfolio about my projects",
                 liveLink: "https://www.portfoliome.site/",
                 githubLink: "https://github.com/SSINAT/Portfolio.git",
                 delay: 0.3,
@@ -214,23 +214,24 @@ export default function Home() {
                 },
                 {
                   title: "Languages",
-                  content: "TypeScript Lua Python JavaScript",
+                  content: "TypeScript Java PHP C++ Python JavaScript",
                   delay: 0.2,
                 },
                 {
                   title: "Databases",
-                  content: "SQLite PostgreSQL MongoDB",
+                  content: "SQLite PostgreSQL MongoDB Mysql",
                   delay: 0.3,
                 },
                 {
                   title: "Tools",
-                  content: "VSCode Neovim Linux Figma Arch Git Font Awesome",
+                  content:
+                    "Nmap Whatweb Metapoit Hydra theHarvester Wireshark Burp Suite Nikto OWASP ZAP",
                   delay: 0.4,
                 },
                 {
                   title: "Frameworks",
                   content:
-                    "React Vue SpringBoot Nest.js Next.js Flask Express.js",
+                    "React Vue3 SpringBoot Nest.js Next.js Flask Express.js",
                   delay: 0.5,
                 },
                 {
@@ -273,10 +274,10 @@ export default function Home() {
               <div className="space-y-6">
                 <p>Hello, I'm Sinat!</p>
                 <p>
-                  I'm a certified Ethical Hacking and self-taught
-                  full-stack developer based in Phnom Penh, Cambodia. I
-                  specialize in ethical hacking, penetration testing, and
-                  developing secure responsive websites from scratch.
+                  I'm a certified Ethical Hacking and self-taught full-stack
+                  developer based in Phnom Penh, Cambodia. I specialize in
+                  ethical hacking, penetration testing, and developing secure
+                  responsive websites from scratch.
                 </p>
                 <p>
                   With certifications in ethical hacking and web security, I

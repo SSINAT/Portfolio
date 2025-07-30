@@ -191,7 +191,7 @@ export default function Resume() {
                         </h2>
                       </div>
                       <div className=" p-3 space-y-1 text-foreground text-sm print:text-xs">
-                        Cybersecurity specialist and full-stack developer with
+                        Penetration Testing and full-stack developer with
                         expertise in ethical hacking, penetration testing, and
                         web security. Certified in multiple cybersecurity
                         domains with hands-on experience in system monitoring,

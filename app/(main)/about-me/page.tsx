@@ -21,9 +21,10 @@ export default function AboutMe() {
               <div className="space-y-6">
                 <p>Hello, I'm Sinat!</p>
                 <p>
-                  I'm a self-taught full-stack developer based in Phnom Penh,
-                  Cambodia. I can develop responsive websites from scratch and
-                  raise them into modern user-friendly web experiences.
+                  I'm a self-taught Penetration Testing and full-stack developer
+                  based in Phnom Penh, Cambodia. I can develop responsive
+                  websites from scratch and raise them into modern user-friendly
+                  web experiences.
                 </p>
                 <p>
                   Transforming my creativity and knowledge into websites has
@@ -32,10 +33,10 @@ export default function AboutMe() {
                   learn about the newest technologies and frameworks.
                 </p>
                 <p>
-                  I'm currently looking for new opportunities to work with
-                  companies or individuals who want to make their online
-                  presence more effective. I'm open to freelance projects,
-                  part-time or full-time positions.
+                  I'm currently looking for new opportunities to work or
+                  internship with companies or individuals who want to make
+                  their online presence more effective. I'm open to freelance
+                  projects, part-time or full-time positions.
                 </p>
               </div>
             </SectionReveal>
@@ -78,7 +79,8 @@ export default function AboutMe() {
               },
               {
                 title: "Tools",
-                content: "VSCode Neovim Linux Figma Git Font Awesome",
+                content:
+                  " Nmap Whatweb Metapoit Hydra theHarvester Wireshark Burp Suite Nikto OWASP ZAP",
                 delay: 0.3,
               },
               { title: "Other", content: "HTML CSS EJS SCSS", delay: 0.4 },
