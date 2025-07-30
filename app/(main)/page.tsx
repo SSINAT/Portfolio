@@ -273,7 +273,7 @@ export default function Home() {
               <div className="space-y-6">
                 <p>Hello, I'm Sinat!</p>
                 <p>
-                  I'm a certified cybersecurity specialist and self-taught
+                  I'm a certified Ethical Hacking and self-taught
                   full-stack developer based in Phnom Penh, Cambodia. I
                   specialize in ethical hacking, penetration testing, and
                   developing secure responsive websites from scratch.

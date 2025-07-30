@@ -569,7 +569,7 @@ export default function Resume() {
                       </div>
                       <div className="p-3 print:p-2">
                         <p className="text-foreground text-sm print:text-xs">
-                          Git VSCode Figma Docker PostgreSQL
+                          Nmap Whatweb Metapoit Hydra theHarvester Wireshark ...
                         </p>
                       </div>
                     </div>
