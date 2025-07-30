@@ -380,6 +380,17 @@ export default function Home() {
                 certificateUrl:
                   "https://programiz.pro/certificates/detail/BC79042B2F70",
               },
+              {
+                title: "C++ for Programmers Course",
+                provider: "Codecademy",
+                duration: "10 hours",
+                date: "August 2023",
+                imageSrc: "/images/certificates/c++Codecademy.png",
+                imageAlt: "C++ for Programmers Certificate",
+                delay: 0.5,
+                certificateUrl:
+                  "https://www.codecademy.com/profiles/imme404/certificates/ddc94032dd07fd43ee02f994e8f72af9",
+              },
             ].map((certificate, index) => (
               <SectionReveal
                 key={certificate.title}
