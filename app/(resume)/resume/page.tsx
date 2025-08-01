@@ -108,7 +108,7 @@ export default function Resume() {
                     Sinat Sina
                   </h1>
                   <p className="text-primary text-xl print:text-lg">
-                    full-stack developer
+                    Pentration Testing
                   </p>
                 </div>
 
