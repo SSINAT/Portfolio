@@ -516,7 +516,7 @@ export default function Resume() {
                         </div>
                         <div className="flex justify-between">
                           <span className="text-foreground">English</span>
-                          <span className="text-white">Fluent</span>
+                          <span className="text-white">Good</span>
                         </div>
                         <div className="flex justify-between">
                           <span className="text-foreground">Chinese</span>
