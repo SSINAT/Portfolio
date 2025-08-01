@@ -125,7 +125,7 @@ export default function AboutMe() {
                   { fact: "I like winter more than summer", delay: 0.1 },
                   { fact: "I often bike with my friends", delay: 0.2 },
                   { fact: "I like pizza and pasta", delay: 0.3 },
-                  { fact: "I was in Egypt, Poland and Turkey", delay: 0.4 },
+                  { fact: "I was in kompong Cham, but live in Tbong khmom now ", delay: 0.4 },
                   { fact: "My favorite movie is The Green Mile", delay: 0.5 },
                   { fact: "I am still in school", delay: 0.6 },
                   { fact: "I don't have any siblings", delay: 0.7 },
