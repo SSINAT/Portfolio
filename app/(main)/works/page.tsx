@@ -17,61 +17,43 @@ export default function Works() {
           <p className="mb-12">List of my projects</p>
 
           <SectionReveal delay={0.2}>
-            <h2 className="hash-title mb-6">complete-apps</h2>
+            <h2 className="hash-title mb-6">Cyber Securiy</h2>
           </SectionReveal>
 
           <div className="grid md:grid-cols-3 gap-4 mb-16">
             {[
               {
-                title: "JobHunter",
+                title: "Monitoring System",
                 description:
-                  "Job search platform for job seekers and employers",
-                tags: ["Vue", "Nest.js", "Minio", "postgreSQL"],
-                imageSrc: "/images/JobHuntersvg.svg",
-                imageAlt: "JobHunter project",
+                  "Integrate multiple open-source tool to function as monitoring system ",
+                tags: ["Docker", "Nest.JS", "Next.JS", "Prometheus", "ELK Stack"],
+                imageSrc: "/images/monitor.png",
+                imageAlt: "Monitoring System project",
                 delay: 0.1,
-                liveLink: "https://job-hunter-kh.vercel.app/",
-                githubLink: "https://github.com/SSINAT/JobHunter-web.git",
+                liveLink: "https://motoring-system.vercel.app/",
+                githubLink: "https://github.com/SSINAT/motoring-system.git",
               },
               {
-                title: "AngkorApparel",
-                description: "E-commerce website for sale clothing",
-                tags: ["Vue.Js", "JavaScript.js"],
-                imageSrc: "/images/ecommerce.png",
-                imageAlt: "E-commerce project",
-                delay: 0.1,
+                title: "Wifi Hotspot ITC",
+                description: "Wifi hotspot ITC Security Of Cybernet Lab",
+                tags: ["Access point", "switch", "Router", "DHCP", "DNS"],
+                imageSrc: "/images/wifi.png",
+                imageAlt: "iTC Wifi Hotspot project",
+                delay: 0.2,
+                githubLink: "#",
                 liveLink: "#",
-                githubLink: "https://github.com/SSINAT/AngkorApsara.git",
               },
               {
-                title: "Everloop",
-                description: "Everloop board",
-                tags: ["JavaScript", "HTML", "CSS"],
-                imageSrc: "/images/everloop.png",
-                imageAlt: "Everloop project",
-                delay: 0.7,
-                githubLink: "https://github.com/SSINAT/EVERLOOP.git",
+                title: "Honeypot and Threat Intelligence",
+                description:
+                  "decoy system designed to attract and detect cyber attacks",
+                tags: ["Cowire", "Ubuntu Server", "Python", "ELK Stack"],
+                imageSrc: "/images/honeypot.png",
+                imageAlt: "Honeypot project",
+                delay: 0.3,
+                githubLink: "#",
+                liveLink: "#",
               },
-              // {
-              //   title: "Kahoot Answers",
-              //   description: "Get answers to your kahoot quiz",
-              //   tags: ["JavaScript", "CSS", "HTML"],
-              //   imageSrc: "/images/kahoot-answers.png",
-              //   imageAlt: "Kahoot Answers project",
-              //   delay: 0.2,
-              //   liveLink: "#",
-              //   githubLink: "#",
-              // },
-              // {
-              //   title: "ProtectX",
-              //   description: "Discord anti-crash bot",
-              //   tags: ["React", "Express", "Discord.js", "Node.js"],
-              //   imageSrc: "/images/protectx.png",
-              //   imageAlt: "ProtectX project",
-              //   delay: 0.3,
-              //   liveLink: "#",
-              //   githubLink: "#",
-              // },
             ].map((project) => (
               <SectionReveal
                 key={project.title}
@@ -92,10 +74,10 @@ export default function Works() {
           </div>
 
           <SectionReveal delay={0.4}>
-            <h2 className="hash-title mb-6">small-projects</h2>
+            <h2 className="hash-title mb-6">Web Development</h2>
           </SectionReveal>
 
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid md:grid-cols-3 gap-4 mb-16">
             {[
               {
                 title: "AngkorApparel",
@@ -104,29 +86,22 @@ export default function Works() {
                 imageSrc: "/images/ecommerce.png",
                 imageAlt: "E-commerce project",
                 delay: 0.1,
+
                 liveLink: "#",
                 githubLink: "https://github.com/SSINAT/AngkorApsara.git",
               },
               {
-                title: "Monitoring System",
-                description: "Integrate multiple open-source tool to function as monitoring system ",
-                tags: ["Docker", "NestJS", "VueJs", "Prometheus", "DNS"],
-                imageSrc: "/images/monitor.png",
-                imageAlt: "Monitoring System project",
-                delay: 0.1,
-                liveLink: "https://motoring-system.vercel.app/",
-                githubLink: "https://github.com/SSINAT/motoring-system.git",
+                title: "JobHunter",
+                description:
+                  "Job search platform for job seekers and employers",
+                tags: ["Vue", "Nest.js", "Minio", "postgreSQL"],
+                imageSrc: "/images/JobHuntersvg.svg",
+                imageAlt: "JobHunter project",
+                delay: 0.2,
+                liveLink: "https://job-hunter-kh.vercel.app/",
+                githubLink: "https://github.com/SSINAT/JobHunter-web.git",
               },
-              {
-                title: "TIC Quiz App",
-                description: "Quiz app for TIC students",
-                tags: ["firebae", "dart"],
-                imageSrc: "/images/TicQuizApp.png",
-                imageAlt: "TIC Quiz App project",
-                delay: 0.5,
 
-                githubLink: "https://github.com/SSINAT/Moblie-Project.git",
-              },
               {
                 title: "My Portfolio",
                 description: "Personal Portfolio website",
@@ -160,15 +135,6 @@ export default function Works() {
               },
 
               {
-                title: "Game 2048",
-                description: "Simple 2048 game",
-                tags: ["Java"],
-                imageSrc: "/images/2048.png",
-                imageAlt: "Game 2048 project",
-                delay: 0.6,
-                githubLink: "#",
-              },
-              {
                 title: "Everloop",
                 description: "Everloop board",
                 tags: ["JavaScript", "HTML", "CSS"],
@@ -177,13 +143,48 @@ export default function Works() {
                 delay: 0.7,
                 githubLink: "https://github.com/SSINAT/EVERLOOP.git",
               },
+            ].map((project) => (
+              <SectionReveal
+                key={project.title}
+                delay={project.delay}
+                direction="up"
+              >
+                <ProjectCard
+                  title={project.title}
+                  description={project.description}
+                  tags={project.tags}
+                  imageSrc={project.imageSrc}
+                  imageAlt={project.imageAlt}
+                  liveLink={project.liveLink}
+                  githubLink={project.githubLink}
+                />
+              </SectionReveal>
+            ))}
+          </div>
+
+          <SectionReveal delay={0.6}>
+            <h2 className="hash-title mb-6">Mobile Development</h2>
+          </SectionReveal>
+
+          <div className="grid md:grid-cols-3 gap-4 mb-16">
+            {[
               {
-                title: "Wifi Hotspot ITC",
-                description: "Wifi hotspot ITC Security Of Cybernet Lab",
-                tags: ["cisco", "switch", "Router", "DHCP", "DNS"],
-                imageSrc: "/images/wifi.png",
-                imageAlt: "iTC Wifi Hotspot project",
-                delay: 0.8,
+                title: "TIC Quiz App",
+                description: "Quiz app for TIC students",
+                tags: ["firebase", "Flutter", "dart"],
+                imageSrc: "/images/TicQuizApp.png",
+                imageAlt: "TIC Quiz App project",
+                delay: 0.1,
+                githubLink: "https://github.com/SSINAT/Moblie-Project.git",
+              },
+              {
+                title: "Game 2048",
+                description: "Simple 2048 game",
+                tags: ["Java"],
+                imageSrc: "/images/2048.png",
+                imageAlt: "Game 2048 project",
+                delay: 0.6,
+                githubLink: "#",
                 liveLink: "#",
               },
             ].map((project) => (
