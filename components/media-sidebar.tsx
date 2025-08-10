@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Dribbble ,Figma} from "lucide-react";
+import { Github, Dribbble ,Figma,LinkedinIcon} from "lucide-react";
 export default function MediaSidebar() {
   return (
     <div className="fixed left-4 top-20 transform -translate-y-1/2 z-10 hidden lg:block">
@@ -27,11 +27,11 @@ export default function MediaSidebar() {
             <Dribbble className="h-5 w-5 hover:text-primary" />
           </Link>
           <Link
-            href="#"
+            href="https://www.linkedin.com/in/sinat-sina-36765b238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
             className="transition-colors duration-300"
             style={{ color: "var(--foreground)" }}
           >
-            <Figma className="h-5 w-5 hover:text-primary" />
+            <LinkedinIcon className="h-5 w-5 hover:text-primary" />
           </Link>
         </div>
       </div>
