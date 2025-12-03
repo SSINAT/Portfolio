@@ -6,7 +6,7 @@ import DecorativeElements from "@/components/decorative-elements";
 import AnimatedText from "@/components/animated-text";
 import AnimatedLink from "@/components/animated-link";
 import SectionReveal from "@/components/section-reveal";
-
+// import Slideshow from "@/components/slideshow";
 export default function Home() {
   return (
     <div className="px-4 md:px-32 space-y-24 pb-16 relative overflow-hidden">
@@ -117,6 +117,12 @@ export default function Home() {
           </SectionReveal>
         </section>
       </SectionReveal>
+      {/* Internship Slideshow Section
+      <SectionReveal delay={0.2}>
+        <section className="relative -mx-4 md:-mx-32">
+          <Slideshow />
+        </section>
+      </SectionReveal> */}
 
       {/* Projects Section */}
       <SectionReveal delay={0.2}>
@@ -139,7 +145,13 @@ export default function Home() {
                 title: "Monitoring System",
                 description:
                   "Integrate multiple open-source tool to function as monitoring system",
-                tags: ["Docker", "Nest.JS", "Next.Js", "Prometheus", "ELK Stack"],
+                tags: [
+                  "Docker",
+                  "Nest.JS",
+                  "Next.Js",
+                  "Prometheus",
+                  "ELK Stack",
+                ],
                 imageSrc: "/images/monitor.png",
                 imageAlt: "Monitoring System project",
                 delay: 0.1,
