@@ -256,7 +256,7 @@ export default function Home() {
                 {
                   title: "Tools",
                   content:
-                    "Nmap Whatweb Metapoit Hydra theHarvester Wireshark Burp Suite Nikto OWASP ZAP",
+                    "ELK-Stack Prometheus Grafana Wazuh Pfsense Suricata Wireshark Burp Suite Nikto OWASP ZAP",
                   delay: 0.4,
                 },
                 {
