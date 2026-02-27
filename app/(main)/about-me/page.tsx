@@ -33,8 +33,8 @@ export default function AboutMe() {
                   learn about the newest technologies and frameworks.
                 </p>
                 <p>
-                  I'm currently looking for new opportunities to work or
-                  internship with companies or individuals who want to make
+                  I'm currently looking for new opportunities to work
+                  with companies or individuals who want to make
                   their online presence more effective. I'm open to freelance
                   projects, part-time or full-time positions.
                 </p>

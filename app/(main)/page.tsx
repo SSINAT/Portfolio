@@ -78,10 +78,10 @@ export default function Home() {
                       <p className="text-sm">
                         <span className="text-white">Currently working as</span>{" "}
                         <a
-                          href="https://itc.edu.kh/"
+                          href="https://www.sathapana.com.kh/"
                           className="text-primary hover:underline"
                         >
-                          Cybersecurity
+                          SOC
                         </a>
                       </p>
                     </div>
